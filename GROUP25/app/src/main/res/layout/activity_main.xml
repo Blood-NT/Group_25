@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    >
+
+   <Button
+       android:id="@+id/check_ok"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:onClick="onClick"
+       android:background="@drawable/btn_bo_01"
+       android:text="okk" />
+</android.support.constraint.ConstraintLayout>
